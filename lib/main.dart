@@ -21,20 +21,20 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Cashy"),
           backgroundColor: Colors.deepOrangeAccent,
-          actions: <Widget>[
-            IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.mail),
-              color: Colors.blue,
-            )
-          ],
         ),
         body: SafeArea(
-          child: Image(
-            image: AssetImage("assets/images/documents.png"),
-            width: 200,
+            child: Container(
+          child: Column(
+            children: <Widget>[
+              Image(
+                image: AssetImage("assets/images/documents.png"),
+                width: 150,
+              ),
+              Text("Hello world"),
+              Text("Selamat mencoba Flutter")
+            ],
           ),
-        ),
+        )),
       ),
     );
   }
