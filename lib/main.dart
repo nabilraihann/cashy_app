@@ -31,7 +31,8 @@ class MyApp extends StatelessWidget {
                 width: 150,
               ),
               Text("Hello world"),
-              Text("Selamat mencoba Flutter")
+              Text("Selamat mencoba Flutter"),
+              Text("Tetap semangat")
             ],
           ),
         )),
