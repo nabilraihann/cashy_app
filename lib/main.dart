@@ -32,7 +32,8 @@ class MyApp extends StatelessWidget {
               ),
               Text("Hello world"),
               Text("Selamat mencoba Flutter"),
-              Text("Tetap semangat")
+              Text("Tetap semangat"),
+              Text("Jangan menyerah")
             ],
           ),
         )),
